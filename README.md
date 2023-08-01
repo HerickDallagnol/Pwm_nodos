@@ -1,2 +1,4 @@
 # Pwm_nodos
-Comunicação ESP32 com o ros (Publisher and Subscriber)
+
+Cria um publisher (pub_pwm.py) para enviar um valor de sinal pwm para o esp aonde tem um subscriber que altera o valor de tensão (pwm_subscriber.ino)
+
