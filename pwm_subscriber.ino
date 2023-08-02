@@ -23,15 +23,14 @@ void setup() {
   Serial.begin(9600);
   nh.getHardware()->setBaud(9600);
   sleep(1);
+  nh.initNode();
 
   ledcSetup(pwmChannel, frequence, resolution);
-  
-  nh.initNode();
-  nh.subscribe(sub);
-
 }
 
 void loop() {
+
+  nh.subscribe(sub);
   nh.spinOnce();
   delay(1);
 }
