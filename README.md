@@ -1,4 +1,7 @@
 # Pwm_nodos
 
-Cria um publisher (pub_pwm.py) para enviar um valor de sinal pwm para o esp aonde tem um subscriber que altera o valor no esp (pwm_subscriber.ino)
+Create a publisher (pub_pwm.py) to send a PWM signal value to the ESP, where a subscriber (pwm_subscriber.ino) updates the value on the ESP.
+
+## Tutorial 
+1 - Upload the code (pwm_subscriber.ino) to Esp32
 
