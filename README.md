@@ -9,6 +9,9 @@ Create a publisher (pub_pwm.py) to send a PWM signal value to the ESP, where a s
 
 3 - In another terminal paste the (pub_pwm.py) in some pkg in your src
 
+nh.getHardware()->setBaud(115200);
+  sleep(1);
+
 4 - run the (pub_pwm.py) in your terminal and put some value to pwm signal  
 
     $ python3 pub_pwm.py
